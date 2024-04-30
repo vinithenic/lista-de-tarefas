@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas Escolares</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1>Lista de Tarefas Escolares</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group" id="daysList">
+          <a href="#" class="list-group-item list-group-item-action" onclick="showTasks('Segunda-feira')">Segunda-feira</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="showTasks('Terça-feira')">Terça-feira</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="showTasks('Quarta-feira')">Quarta-feira</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="showTasks('Quinta-feira')">Quinta-feira</a>
+          <a href="#" class="list-group-item list-group-item-action" onclick="showTasks('Sexta-feira')">Sexta-feira</a>
+        </div> 
+      </div>
+      <div class="col-md-9">
+        <ul id="taskList" class="list-group">
+        </ul>
+        <ul id="taskInput" class="list-group">
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

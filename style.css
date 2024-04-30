@@ -1,0 +1,77 @@
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo do corpo */
+    margin: 0;
+    padding: 0;
+    background-image: url(./escola.jpg);
+  }
+  
+  /* Estilo para o cabeçalho */
+  h1 {
+    color: #333; /* Cor do texto */
+    text-align: center;
+    margin-bottom: 30px; /* Espaçamento inferior */
+  }
+  
+  /* Estilo para a lista de dias */
+  #daysList {
+    text-align: center; /* Centraliza os itens */
+  background-color: #007bff; /* Cor de fundo dos dias */
+  padding: 20px 0; /* Adiciona espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+  }
+  
+  .list-group-item {
+    display: inline-block; /* Exibe os itens em linha */
+    margin: 0 10px; /* Adiciona espaçamento entre os itens */
+    color: rgb(0, 0, 0); /* Cor do texto dos dias */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-decoration: none; /* Remove a sublinhado padrão */
+    padding: 10px 20px; /* Adiciona padding interno */
+    border-radius: 20px; /* Deixa os cantos arredondados */
+    text-align: center; 
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar por cima */
+  }
+  
+  /* Estilo para a lista de tarefas */
+  #taskList {
+    padding-left: 0; /* Remove o espaçamento à esquerda */
+  }
+  
+  .list-group-item {
+    display: flex; /* Exibe os itens em linha */
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: space-between; /* Alinha os itens ao longo do eixo principal com espaço uniforme */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    background-color: rgb(255, 217, 0); /* Cor de fundo dos itens */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    transform: translateY(-2px); /* Efeito de levantamento ao passar por cima */
+    box-shadow: 0 4px 8px rgba(82, 77, 77, 0.1); /* Sombra mais forte ao passar por cima */
+  }
+  
+  /* Estilo para o botão de remoção */
+  .btn-remove {
+    background-color: #dc3545; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove a borda */
+    padding: 5px 10px; /* Preenchimento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Mostra o cursor como ponteiro */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c82333; /* Cor de fundo mais escura ao passar por cima */
+  }
+  
